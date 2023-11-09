@@ -1,0 +1,10 @@
+{
+  "author_name": "Thanate boat Dhirasakdanon",
+  "author_email": "dthanate@gmail.com",
+  "project_name": "a-python-ds-project",
+  "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "package_name": "{{ cookiecutter.repo_name|replace('-', '_') }}",
+  "project_desc": "A Python DS project about something",
+  "gitignore_name": ".gitignore",
+  "version": "0.1.0"
+}
