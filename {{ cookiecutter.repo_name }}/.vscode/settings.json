@@ -15,7 +15,7 @@
   ],
   "python.analysis.autoSearchPaths": false,
   "python.analysis.include": [
-    "abc_def"
+    "{{ cookiecutter.package_name }}"
   ],
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
@@ -57,6 +57,12 @@
   ],
   "mypy-type-checker.path": [
     "${workspaceFolder}/.venv/bin/mypy"
+  ],
+  "bandit.interpreter": [
+    "${workspaceFolder}/.venv/bin/python3"
+  ],
+  "bandit.path": [
+    "${workspaceFolder}/.venv/bin/bandit"
   ],
   "files.associations": {
     "*.dvc": "yaml",
