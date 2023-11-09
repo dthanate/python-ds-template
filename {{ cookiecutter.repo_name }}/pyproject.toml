@@ -78,7 +78,6 @@ jupyterlab-execute-time = ">=3.1.0"
 plotille = ">=5.0.0"
 nbconvert = ">=7.11.0"
 nbdime = ">=3.2.1"
-alibi = { extras = ["shap"], version = ">=0.9.4" }
 scikit-plot = ">=0.3.7"
 
 [tool.poetry.group.test.dependencies]
