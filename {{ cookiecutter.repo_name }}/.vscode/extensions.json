@@ -21,5 +21,6 @@
     "zeshuaro.vscode-python-poetry",
     "njqdev.vscode-python-typehint",
     "thebutlah.reorder-python-imports",
+    "nwgh.bandit"
   ]
 }
