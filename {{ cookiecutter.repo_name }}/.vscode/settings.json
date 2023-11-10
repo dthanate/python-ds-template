@@ -14,6 +14,7 @@
     ".venv"
   ],
   "python.analysis.autoSearchPaths": false,
+  "python.analysis.autoImportCompletions": true,
   "python.analysis.include": [
     "{{ cookiecutter.package_name }}"
   ],
@@ -77,8 +78,5 @@
     "140"
   ],
   "jupyter.interactiveWindow.codeLens.enable": true,
-  "jupyter.interactiveWindow.codeLens.enableGotoCell": true,
-  "vscode-neovim.neovimClean": true,
-  "vscode-pylens.enableCodeLens": true,
-  "python.analysis.autoImportCompletions": true
+  "jupyter.interactiveWindow.codeLens.enableGotoCell": true
 }
