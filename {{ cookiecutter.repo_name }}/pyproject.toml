@@ -104,7 +104,13 @@ priority = "explicit"
 [tool.poetry_bumpversion.file."{{ cookiecutter.package_name }}/__init__.py"]
 
 [tool.pylint]
+jobs = 0
+extension-pkg-allow-list = ["ujson", "pydantic"]
+
+[tool.pylint.FORMAT]
 max-line-length = 140
+
+[tool.pylint."MESSAGE CONTROL"]
 disable = [
   "missing-function-docstring",
   "missing-module-docstring",
