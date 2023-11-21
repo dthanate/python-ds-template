@@ -46,6 +46,7 @@ category-encoders = ">=2.6.3"
 #   { version = ">=1.9.0", source="torchcpu", platform = "linux", markers="platform_system == 'Linux'" }
 # ]
 cython = ">=3.0.5"
+pythran = ">=0.14.0"
 dvclive = ">=3.2.0"
 imodels = {extras = ["corels", "cvxpy", "gosdt", "irf"], version = ">=1.4.1"}
 fast-hdbscan = ">=0.1.3"
