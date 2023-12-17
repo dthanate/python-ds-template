@@ -1106,3 +1106,5 @@ c.ServerApp.websocket_compression_options = {}
 #          Should be in the form of an HTTP origin: ws[s]://hostname[:port]
 #  Default: ''
 # c.ServerApp.websocket_url = ''
+
+c.ResourceUseDisplay.track_cpu_percent = True

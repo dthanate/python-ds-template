@@ -6,5 +6,7 @@
   "package_name": "{{ cookiecutter.repo_name|replace('-', '_') }}",
   "project_desc": "A Python DS project about something",
   "gitignore_name": ".gitignore",
+  "cpu_limit": "8",
+  "mem_limit": "67134443520",
   "version": "0.1.0"
 }
