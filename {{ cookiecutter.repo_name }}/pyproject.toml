@@ -12,7 +12,7 @@ fsspec = ">=2023.10.0"
 ujson = ">=5.8.0"
 dill = ">=0.3.7"
 more-itertools = ">=10.1.0"
-numpy = ">=1.26.1"
+numpy = ">=1.25.0"
 scipy = ">=1.11.3"
 pandas = ">=2.1.2"
 pyarrow = { extras = ["parquet"], version = ">=14.0.1" }
