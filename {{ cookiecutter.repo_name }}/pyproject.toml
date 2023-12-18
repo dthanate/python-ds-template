@@ -94,14 +94,12 @@ alibi = ">=0.9.4"
 scikit-plot = ">=0.3.7"
 nbconvert = {extras = ["webpdf"], version = ">=7.11.0"}
 ydata-profiling = ">=4.6.3"
-autoviz = ">=0.1.732"
 jupyterlab-git = ">=0.50.0"
 jupyterlab-spellchecker = ">=0.8.4"
 jupytext = ">=1.16.0"
 jupyter-resource-usage = ">=1.0.1"
 ipyflow = ">=0.0.192"
 papermill = ">=2.5.0"
-dabl = ">=0.2.5"
 
 [tool.poetry.group.test.dependencies]
 pytest = ">=7.4.3"
