@@ -1,0 +1,23 @@
+{
+    "activate": "on",
+    "setTrace": "off",
+    "logAllCommunication": false,
+    "languageServers": {
+        "jedi-language-server": {
+            "rank": 50,
+            "configuration": {}
+        },
+        "julia-language-server": {
+            "rank": 50,
+            "configuration": {}
+        },
+        "pyright": {
+            "rank": 50,
+            "configuration": {}
+        },
+        "texlab": {
+            "rank": 50,
+            "configuration": {}
+        }
+    }
+}
