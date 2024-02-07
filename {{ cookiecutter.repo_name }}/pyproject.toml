@@ -91,7 +91,7 @@ ipywidgets = ">=8.1.1"
 sweetviz = ">=2.3.1"
 jupyterlab-execute-time = ">=3.1.1"
 nbdime = ">=4.0.1"
-alibi = ">=0.9.5"
+#alibi = ">=0.9.5"
 scikit-plot = ">=0.3.7"
 nbconvert = {extras = ["webpdf"], version = ">=7.15.0"}
 #ydata-profiling = ">=4.6.4"
