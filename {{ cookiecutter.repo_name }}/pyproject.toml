@@ -94,7 +94,7 @@ nbdime = ">=4.0.1"
 alibi = ">=0.9.5"
 scikit-plot = ">=0.3.7"
 nbconvert = {extras = ["webpdf"], version = ">=7.15.0"}
-ydata-profiling = ">=4.6.4"
+#ydata-profiling = ">=4.6.4"
 jupyterlab-git = ">=0.50.0"
 jupyterlab-spellchecker = ">=0.8.4"
 jupytext = ">=1.16.1"
